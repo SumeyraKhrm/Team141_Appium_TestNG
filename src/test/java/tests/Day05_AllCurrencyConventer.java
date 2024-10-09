@@ -30,7 +30,7 @@ public class Day05_AllCurrencyConventer {
         // cevrilen tutar screenShot olarak kaydedilir
         page.bir.click();
         page.ucSifir.click();
-        File ekranfotografi= driver.getScreenshotAs(OutputType.FILE);
+        File ekranfotografi= driver.getScreenshotAs(OutputType.FILE);  //ekran goruntusu alıp kaydediyor
         FileUtils.copyFile(ekranfotografi,new File("t141.png"));
         ReusableMethods.getScreenshot("methodlu");
 
