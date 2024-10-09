@@ -18,6 +18,7 @@ import java.util.Date;
 public class ReusableMethods {
 
 
+    //kordinasyon metodu
     public static void koordinatTiklamaMethodu(int x,int y,int bekleme) throws InterruptedException {
         TouchAction action=new TouchAction<>(Driver.getAndroidDriver());
         action.press(PointOption.point(x,y))
